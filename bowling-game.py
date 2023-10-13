@@ -5,7 +5,7 @@ class BowlingGame:
         self.strike_or_spare = [[[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []]]             # holds X or / for strikes and spares
         self.frame_scores = [[[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []], [[], [], [], [], [], [], [], [], [], []]]                # holds the score for each frame
 
-    def start_game(self):                                   #starts the game
+    def start_game(self):                                   #starts the game and recieves input for number of players and player names
         print("Welcome to Bowling Scorer!")
         try:
             self.num_players = int(input("Enter the number of players (1-4): "))
